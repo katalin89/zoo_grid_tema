@@ -1,0 +1,66 @@
+body{
+    background-color: blanchedalmond;
+}
+img{
+    display: block;
+    width: 300px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+
+    grid-area: h;
+}
+
+.lions{
+    width: 25%;
+    grid-area: l;
+}
+
+.caii{
+    width: 25%;
+    grid-area: c;
+}
+
+.cerb{
+    width: 25%;
+    grid-area: ce;
+}
+
+.flamingo{
+    width: 25%;
+grid-area:f;
+}
+
+.broasca{
+    width: 25%;
+    grid-area:b
+}
+
+.macacul{
+    width: 25%;
+    grid-area:m ;
+}
+.paun{
+    width: 25%; 
+    grid-area: p;
+}
+
+.turtle{
+    width: 25%;
+    grid-area:t ;
+}
+.container-grid{
+    border: 2px solid red;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "h h"
+                        "l c"
+                        "ce f"
+                        "b m"
+                        "p t";
+}
